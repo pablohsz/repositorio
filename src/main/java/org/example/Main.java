@@ -9,10 +9,11 @@ public class Main {
 
         a = in.nextInt();
         b = in.nextInt();
-        System.out.println(adicao(a,b));
+        System.out.println(adicao(a, b));
     }
 
-    public static int adicao(int a, int b){
+    public static int adicao(int a, int b) {
         return a + b;
     }
+
 }
