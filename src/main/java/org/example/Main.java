@@ -9,7 +9,8 @@ public class Main {
 
         a = in.nextInt();
         b = in.nextInt();
-        System.out.println(adicao(a, b));
+        System.out.println("Adição " + adicao(a, b));
+        System.out.println("Subtração " + subtracao(a, b));
         c = in.nextInt();
         System.out.println(adicao(a, b, c));
     }
@@ -20,5 +21,9 @@ public class Main {
 
     public static int adicao(int a, int b, int c) {
         return a + b;
+    }
+
+    public static int subtracao(int a, int b) {
+        return a - b;
     }
 }
